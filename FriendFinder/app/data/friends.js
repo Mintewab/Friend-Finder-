@@ -7,5 +7,10 @@ var friendMatch = [
         name: "Allie Long",
         photo: "https://girlssoccernetwork.com/wp-content/uploads/2017/10/Allie-Long.png ",
         scores: ["1", "1", "1", "1", "1"]
+      }, {
+        name: "Megan Rapinoe ",
+        photo: "https://sportshub.cbsistatic.com/i/2019/06/24/61b6b720-4e90-4e05-b61b-e3285c2553be/usatsi-12949052-megan-rapinoe-1st-pk-goal-uswnt-2019-ww-c-r16-1400.jpg ",
+        scores: ["3", "3", "3", "3", "3"]
+       
       }, 
 ];
