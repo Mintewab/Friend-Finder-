@@ -19,3 +19,4 @@ var friendMatch = [
         scores: ["2", "2", "2", "2", "2"]
       },
 ];
+module.exports = friendMatch;
