@@ -4,14 +4,12 @@
   <meta charset="UTF-8">
   <title>Friend Finder Survey</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
   <script src="https://code.jquery.com/jquery.js"></script>
-
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </head>
 <body> 
-       <div class = "container">
+<div class = "container">
 	 <div class="page-header">
        <h1><span class="glyphicon glyphicon-list-alt"></span> Survey Questions</h1>
       </div>
@@ -35,37 +33,38 @@
             <span class="input-group-addon"></span>
           </div>
         </div>
-        
+      
       </div>
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title"><strong>Questionnaire</strong></h3>
         </div>
         <div class="panel-body">
+       
+          <h4><strong>Question 1</strong></h4>
+          <h5>I am always happy.</h5>
+          <select data-placeholder="" class="select" id="Q1">
+            <option value=""></option>
+            <option value="1">1(Strongly Disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="1">4 </option>
+            <option value="1">5(Strongly Agree)</option>
+          </select>
+         
+          <h4><strong>Question 2</strong></h4>
+          <h5>I keep my self busy at all times.</h5>
+          <select data-placeholder="" class="select" id="Q2">
+            <option value=""></option>
+            <option value="1">1(Strongly Disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="1">4 </option>
+            <option value="1">5(Strongly Agree)</option>
+          </select>
 
-
-                <h4><strong>Question 1</strong></h4>
-                <h5>I am always happy.</h5>
-                <select data-placeholder="" class="select" id="Q1">
-                  <option value=""></option>
-                  <option value="1">1(Strongly Disagree)</option>
-                  <option value="2">2 </option>
-                  <option value="3">3 </option>
-                  <option value="1">4 </option>
-                  <option value="1">5(Strongly Agree)</option>
-                </select>
-               
-                <h4><strong>Question 2</strong></h4>
-                <h5>I keep my self busy at all times.</h5>
-                <select data-placeholder="" class="select" id="Q2">
-                  <option value=""></option>
-                  <option value="1">1(Strongly Disagree)</option>
-                  <option value="2">2 </option>
-                  <option value="3">3 </option>
-                  <option value="1">4 </option>
-                  <option value="1">5(Strongly Agree)</option>
-                </select>
-     <h4><strong>Question 3</strong></h4>
+   
+          <h4><strong>Question 3</strong></h4>
           <h5>I enjoy outdoors.</h5>
           <select data-placeholder="" class="select" id="Q3">
             <option value=""></option>
@@ -76,6 +75,7 @@
             <option value="1">5(Strongly Agree)</option>
           </select>
 
+          
           <h4><strong>Question 4</strong></h4>
           <h5>I love to workout</h5>
           <select data-placeholder="" class="select" id="Q4">
@@ -87,7 +87,8 @@
             <option value="1">5(Strongly Agree)</option>
           </select>
 
-  <h4><strong>Question 5</strong></h4>
+         
+          <h4><strong>Question 5</strong></h4>
           <h5>I am very creative.</h5>
           <select data-placeholder="" class="select" id="Q5">
             <option value=""></option>
@@ -97,6 +98,7 @@
             <option value="1">4 </option>
             <option value="1">5(Strongly Agree)</option>
           </select>
+
           <h4><strong>Question 6</strong></h4>
           <h5>I love to eat out</h5>
           <select data-placeholder="" class="select" id="Q6">
@@ -118,7 +120,7 @@
             <option value="1">4 </option>
             <option value="1">5(Strongly Agree)</option>
           </select>
-          
+
           <h4><strong>Question 8</strong></h4>
           <h5>I love to draw and paint.</h5>
           <select data-placeholder="" class="select" id="Q8">
@@ -129,6 +131,7 @@
             <option value="1">4 </option>
             <option value="1">5(Strongly Agree)</option>
           </select>
+
           <h4><strong>Question 9</strong></h4>
           <h5>I love to cook.</h5>
           <select data-placeholder="" class="select" id="Q9">
@@ -139,7 +142,7 @@
             <option value="1">4 </option>
             <option value="1">5(Strongly Agree)</option>
           </select>
-          
+
           <h4><strong>Question 10</strong></h4>
           <h5>I love to listen to music.</h5>
           <select data-placeholder="" class="select" id="Q10">
@@ -150,6 +153,17 @@
             <option value="1">4 </option>
             <option value="1">5(Strongly Agree)</option>
           </select>
+
+        </div>
+      </div>
+       
+      <button id="submitButton" type="submit" class="btn btn-lg btn-primary btn-block"><h4>Submit</h4></button> 
+  
+      <br>
+
+
+
+
 </body>
 
 </html>
