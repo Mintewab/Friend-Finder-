@@ -35,6 +35,12 @@ module.exports = function(app) {
     var bestFriendNum = comparisonArray[0];
     var bestFriendI = 0;
 
+    for (var i = 1; i < comparisonArray.length; i++) {
+        if (comparisonArray[i] < bestFriendNum) {
+          bestFriendNum = comparisonArray[i];
+          bestFriendI = i;
+        }
+      }
 
 
 };
