@@ -32,4 +32,9 @@ module.exports = function(app) {
       
       comparisonArray[i] = totalDifference;
     }
+    var bestFriendNum = comparisonArray[0];
+    var bestFriendI = 0;
+
+
+
 };
