@@ -200,7 +200,27 @@
             </div>
         </div>
     </div>
-
+    <script type="text/javascript">
+     
+        $(document).ready(function() {
+        $("#submitButton").on("click", function() {
+             
+            function newForm() {
+                
+                var completeForm = true;
+                $(".form-control").each(function() {
+                    if ($(this).val() === ""){
+                        completeForm = false;
+                    }
+                });
+                $(".select").each(function() {
+                    if ($(this).val() === ""){
+                        completeForm = false;
+                    }
+                });
+                return completeForm;
+            }
+            </script>
 
 </body>
 
