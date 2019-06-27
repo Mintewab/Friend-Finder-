@@ -22,5 +22,11 @@ module.exports = function(app) {
         for (var i = 0; i < friendMatch.length; i++) {
             var comparedFriend = friendMatch[i];
             var totalDifference = 0;
-            
+           
+      for (var k = 0; k < comparedFriend.scores.length; k++) {
+        var differenceOneScore = Math.abs(
+          comparedFriend.scores[k] - newFriend.scores[k]
+        );
+        totalDifference += differenceOneScore;
+      } 
 };
