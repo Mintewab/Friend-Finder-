@@ -18,4 +18,9 @@ module.exports = function(app) {
         }
 
         var comparisonArray = [];
+
+        for (var i = 0; i < friendMatch.length; i++) {
+            var comparedFriend = friendMatch[i];
+            var totalDifference = 0;
+            
 };
