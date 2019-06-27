@@ -17,5 +17,5 @@ module.exports = function(app) {
           }
         }
 
-
+        var comparisonArray = [];
 };
