@@ -1,0 +1,1 @@
+var friendMatch = require("../data/friends.js");
